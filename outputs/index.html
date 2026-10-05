@@ -2,31 +2,51 @@
 <html lang="km">
 <head>
   <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>ទំព័ររបស់ខ្ញុំ</title>
+    
+    <!-- ដាក់កូដ CSS នៅទីនេះ -->
+    <style>
+      .image-container {
+          width: 100%;
+          max-width: 400px;
+          aspect-ratio: 9 / 16;
+          margin: 0 auto;
+          overflow: hidden;
+      }
+      .section-art {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+    </style>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover, user-scalable=yes">
   <meta name="theme-color" content="#07142f">
   <meta name="description" content="យើងខ្ញុំមានកិត្តិយស សូមគោរពអញ្ជើញ ឯកឧត្តម លោកជំទាវ លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោក លោកស្រី អ្នកនាងកញ្ញា ចូលរួមជាភ្ញៀវកិត្តិយសក្នុងពិធីបញ្ចុះបឋមសិលាអគារសេនាធិការដ្ឋាន និងហេដ្ឋារចនាសម្ព័ន្ធនានា។">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="km_KH">
   <meta property="og:site_name" content="SAMBOT Online">
-  <meta property="og:title" content="លិខិតអញ្ជើញចូលរួមពិធីបញ្ចុះបឋមសិលាអគារសេនាធិការដ្ឋាន និងហេដ្ឋារចនាសម្ព័ន្ធនានា នៃបញ្ជាការដ្ឋានកងរាជអាវុធហត្ថខេត្តកំពង់ស្ពឺ">
+  <meta property="og:title" content="លិខិតអញ្ជើញចូលរួមពិធីបញ្ចុះបឋមសិលាអគារសេនាធិការដ្ឋាន និងហេដ្ឋារចនាសម្ព័ន្ធនានា នៃបញ្ជាការដ្ឋានកងរាជអាវុធហត្ថខេត្តបាត់ដំបង">
   <meta property="og:description" content="សូមគោរពអញ្ជើញចូលរួមជាភ្ញៀវកិត្តិយសក្នុងពិធីបញ្ចុះបឋមសិលាអគារសេនាធិការដ្ឋាន និងហេដ្ឋារចនាសម្ព័ន្ធនានា។">
-  <meta property="og:image" content="https://cmssambot.b-cdn.net/event_meta_images/2026/05/n2ehB7zhKs0kVMYzigcDaJc5rqEOwGrtjaBlUarR.jpg">
+  <meta property="og:image" content="https://cmssambot.b-cdn.net/event_meta_images/2026/05/n2eងhB7zhKs0kVMYzigcDaJc5rqEOwGrtjaBlUarR.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="downloaded-e-sambot-site/e.sambot.co/favicon.ico">
   <link rel="preload" href="downloaded-e-sambot-site/fonts.gstatic.com/s/kantumruypro/v12/1q2AY5aECkp34vEBSPFOmJxwlEjBe72g.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="downloaded-e-sambot-site/cmssambot.b-cdn.net/05/2026/image/segments/6X1BuULjVkuPKvTyFWAyscATawrQKlbUbFODttoj.png" as="image">
   <link rel="preload" href="downloaded-e-sambot-site/cmssambot.b-cdn.net/05/2026/image/segments/L4V3mZFSNAEygKqQeHHeLTsA3ViKH14QGW3pfwvs.png" as="image">
   <link href="kantumruy-local.css" rel="stylesheet">
-  <title>លិខិតអញ្ជើញចូលរួមពិធីបញ្ចុះបឋមសិលាអគារសេនាធិការដ្ឋាន និងហេដ្ឋារចនាសម្ព័ន្ធនានា នៃបញ្ជាការដ្ឋានកងរាជអាវុធហត្ថខេត្តកំពង់ស្ពឺ</title>
+  <title>លិខិតអញ្ជើញចូលរួមពិធីបញ្ចុះបឋមសិលាអគារសេនាធិការដ្ឋាន និងហេដ្ឋារចនាសម្ព័ន្ធនានា នៃបញ្ជាការដ្ឋានកងរាជអាវុធហត្ថខេត្តបាត់ដំបង</title>
   <style>
     :root { color-scheme: light; --green:#183a2b; --gold:#d6b568; --paper:#fbf8ef; --ink:#26352c; --vh:1vh; }
     * { box-sizing:border-box }
     html { scroll-snap-type:y proximity;scroll-behavior:smooth }
     body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.65 "Kantumruy Pro",sans-serif }
     body.invitation-locked main,body.invitation-locked footer,body.invitation-locked .mobile-nav,body.invitation-locked .floating-anchor-icons { display:none }
+    body.transition-pending { background:#07142f }
     a { color:inherit }
     .hero { height:calc(var(--vh)*100);height:100svh;min-height:560px;position:relative;z-index:2;overflow:hidden;background:#07142f }
     .hero.is-complete { display:none }
+    .hero.is-fading-out { opacity:0;pointer-events:none;transition:opacity .8s ease }
     .cover-video { position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center center;z-index:0;transform:none }
     .hero::before { content:"";position:absolute;z-index:1;inset:0;pointer-events:none;background:linear-gradient(180deg,#07142f55 0%,#07142f18 42%,#07142f99 100%) }
     .invitation-name-container { position:absolute;z-index:2;top:58%;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;width:100%;pointer-events:none }
@@ -40,6 +60,12 @@
     .page-video-wrap.is-active { opacity:1;visibility:visible }
     .page-video { width:100%;height:100%;object-fit:cover }
     .page-video-shade { position:absolute;inset:0;background:#07142f35;pointer-events:none }
+    @keyframes page-fade-in { from{opacity:0} to{opacity:1} }
+    body.page-entering { overflow:hidden }
+    body.page-entering main { position:fixed;inset:0;z-index:3;width:min(100% - 2rem,1000px);height:100svh;margin:0 auto;overflow:hidden;opacity:1;animation:none }
+    body.page-entering main section { opacity:1!important;animation:none!important;transform:none!important }
+    body.page-opened #information { opacity:1!important;animation:none!important;transform:none!important }
+    body.page-entering .top-controls,body.page-entering .mobile-nav,body.page-entering .floating-anchor-icons { animation:page-fade-in .8s ease both }
     .top-controls { position:fixed;z-index:10021;top:max(14px,env(safe-area-inset-top));right:16px }
     .mute-button { width:42px;height:42px;border:1px solid #b5951066;border-radius:50%;display:grid;place-items:center;color:#b59510;background:#b5951020;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:0 2px 8px #0002 }
     .mute-button:hover { background:#b595103d }
@@ -103,6 +129,8 @@
     @media(max-width:600px) {
       body { font-size:15px; padding-bottom:74px }
       .hero { height:calc(var(--vh)*100);height:100svh;min-height:calc(var(--vh)*100);min-height:100svh }
+      .cover-video,.transition-video,.page-video { aspect-ratio:9/16;object-fit:cover;object-position:center }
+      .youtube-frame { width:min(100%,400px);aspect-ratio:9/16 }
       .line-name { position:absolute;z-index:2;top:68%;left:50%;transform:translateX(-50%);display:block;width:min(50.4%,294px);height:auto;pointer-events:none }
     .open-invitation { width:min(220px,57vw);bottom:18% }
       main { width:100%;padding:0 1rem }
@@ -110,6 +138,7 @@
       main section { min-height:100svh }
       .section-title { font-size:1.28rem;margin-bottom:1.1rem }
       #information { padding-bottom:6rem }
+      #information .section-art { width:auto;max-width:100%;max-height:calc(100svh - 8rem);object-fit:contain;margin-inline:auto }
       .swipe-indicator { bottom:5.3rem;font-size:.72rem }
       .section-title small { font-size:.68rem }
       .countdown { padding:1.5rem 1rem;border-radius:15px }
@@ -148,13 +177,13 @@
     </button>
   </div>
   <header class="hero" id="cover">
-    <video class="cover-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="new-cover-video.mp4" type="video/mp4"></video>
+    <video class="cover-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="1004%20(1).mp4" type="video/mp4"></video>
     <div class="invitation-name-container">
       <h1 class="invitation-name">ភ្ញៀវកិត្តិយស</h1>
       <img class="line-name" src="line-name.png" alt="បន្ទាត់សម្រាប់សរសេរឈ្មោះភ្ញៀវកិត្តិយស">
     </div>
     <video class="transition-video" id="transition-video" preload="auto" playsinline controlslist="nodownload" aria-label="Invitation video transition">
-      <source src="https://cmssambot.b-cdn.net/05/2026/video/theme_video_2/TMLdHrH43fyZk5J8OElLRaO1KythYVf3F5ah8MMA.mp4?cache=true&amp;mobile=1&amp;quality=medium" type="video/mp4">
+      <source src="1004%20(3).mp4" type="video/mp4">
     </video>
     <a href="#information" aria-label="បើកលិខិតអញ្ជើញ" onclick="openInvitation(event)">
       <img class="open-invitation" src="open-ticket-button.avif" alt="ចុចដើម្បីបើកលិខិតអញ្ជើញ">
@@ -162,7 +191,7 @@
   </header>
   <div class="page-video-wrap" id="page-video-wrap" aria-hidden="true">
     <video class="page-video" id="page-video" muted loop playsinline preload="auto">
-      <source src="https://cmssambot.b-cdn.net/05/2026/video/theme_video_3/ZhGnF49DDe4YYmti5HdiFQEwHUrIokc2jPjzHUKq.mp4?cache=true" type="video/mp4">
+      <source src="1004%20(3)-copy.mp4" type="video/mp4">
     </video>
     <div class="page-video-shade"></div>
   </div>
@@ -209,13 +238,6 @@
           <button class="send-button" type="submit" aria-label="ផ្ញើសារជូនពរ"><img src="downloaded-e-sambot-site/e.sambot.co/send-greeting-button.png" alt="ផ្ញើសារជូនពរ"></button>
         </form>
         <div class="messages" id="messages" aria-live="polite">
-          <article class="message"><strong>ឯកឧត្តម លោកជំទាវ លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោក លោកស្រី អ្នកនាងកញ្ញា</strong><div>ខ្ញុំបាទ សូមគោរពជូនពរឯកឧត្តមមេបញ្ជាកងរាជអាវុធហត្ថខេត្តកំពង់ស្ពឺ មានសុខភាពល្អ ឈ្នះអស់មាសត្រូវគ្រប់ទិសទី🙏🏻</div><time>27-05-2026 | 05:36pm</time></article>
-          <article class="message"><strong>ឯកឧត្តម លោកជំទាវ លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោក លោកស្រី អ្នកនាងកញ្ញា</strong><div>សូមជូនពរអោយបានជោគជ័យគ្រប់ភារកិច្ច។</div><time>26-05-2026 | 09:40pm</time></article>
-          <article class="message"><strong>ឯកឧត្តម លោកជំទាវ លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោក លោកស្រី អ្នកនាងកញ្ញា</strong><div>ជូនពរ បងមេបញ្ជាការ សូមជោគជ័យគ្រប់ភារកិច្ច ការងារ ដោយក្តីគោរពស្រលាញ់ ពីខ្ញុំ ហន ភក្តី អភិបាលរងខេត្តកំពង់ស្ពឺ</div><time>26-05-2026 | 09:39pm</time></article>
-          <article class="message"><strong>វ.ត្រី អៀង ធារិទ្ធ មេបញ្ជាការរងមូលដ្ឋាន អ.ហ ខណ្ឌចំការមន ភ្នំពេញ</strong><div>សូមគោរពជូនពរមេ ព្រមទាំង អ.ហ ខេត្តកំពង់ស្ពឺទាំងអស់ ទទួលបានសេចក្តីសុខចម្រើន សុវត្ថិភាព ជោគជ័យគ្រប់ភារកិច្ច🙏🙏🙏</div><time>26-05-2026 | 10:15am</time></article>
-          <article class="message"><strong>ឯកឧត្តម លោកជំទាវ លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោក លោកស្រី អ្នកនាងកញ្ញា</strong><div>គោរពជូនពរមេ ព្រមទាំង អ.ហ ខេត្តកំពង់ស្ពឺទាំងអស់ ទទួលបានសេចក្តីសុខ សុវត្ថិភាព រីកចម្រើន ជោគជ័យគ្រប់ភារកិច្ច🙏🙏🙏</div><time>26-05-2026 | 10:11am</time></article>
-          <article class="message"><strong>ឯកឧត្តម លោកជំទាវ លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោក លោកស្រី អ្នកនាងកញ្ញា</strong><div>❤️️❤️️❤️️❤️️</div><time>26-05-2026 | 07:07am</time></article>
-          <article class="message"><strong>ឯកឧត្តម លោកជំទាវ លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោក លោកស្រី អ្នកនាងកញ្ញា</strong><div>ហៀង ពន្លឺ</div><time>25-05-2026 | 08:23pm</time></article>
         </div>
       </div>
     </section>
@@ -226,7 +248,7 @@
     <a class="floating-anchor-icon" href="#gallery" aria-label="Scroll to Gallery"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9" r="1.5"/><path d="m21 15-5-5L5 20"/></svg></a>
     <a class="floating-anchor-icon" href="#greetings" aria-label="Scroll to Messages"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z"/></svg></a>
   </nav>
-  <footer><img class="footer-art" src="downloaded-e-sambot-site/cmssambot.b-cdn.net/05/2026/image/segments/4VD6ZT01yyTOm4XMSCWKFTPUTLv7ndbYDQfaGJoX.png" alt="Footer"></footer>
+  
   <script>
     function updateViewportHeight() {
       document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
@@ -234,8 +256,11 @@
     updateViewportHeight();
     window.addEventListener('resize', updateViewportHeight, { passive: true });
     document.body.classList.add('has-motion');
+    let transitionStarted = false;
     function openInvitation(event) {
       event.preventDefault();
+      if (transitionStarted) return;
+      transitionStarted = true;
       const cover = document.querySelector('#cover');
       cover.classList.remove('is-opening');
       void cover.offsetWidth;
@@ -263,18 +288,49 @@
       if (!muted && music.paused) music.play().catch(() => {});
     });
 
+    const transitionVideo = document.querySelector('#transition-video');
+    let transitionFinished = false;
     function finishVideoTransition() {
       const cover = document.querySelector('#cover');
-      if (!cover.classList.contains('playing-transition')) return;
-      cover.classList.remove('playing-transition');
+      if (transitionFinished || !cover.classList.contains('playing-transition')) return;
+      transitionFinished = true;
+      transitionVideo.pause();
+      cover.classList.remove('playing-transition', 'is-fading-out');
       cover.classList.add('is-complete');
-      document.body.classList.remove('invitation-locked');
+      document.body.classList.add('transition-pending');
       const pageVideo = document.querySelector('#page-video');
-      document.querySelector('#page-video-wrap').classList.add('is-active');
-      pageVideo.play().catch(() => {});
+      const pageVideoWrap = document.querySelector('#page-video-wrap');
+      let revealed = false;
+      const revealPage = () => {
+        if (revealed) return;
+        revealed = true;
+        pageVideoWrap.classList.add('is-active');
+        document.body.classList.add('page-opened');
+        document.body.classList.remove('invitation-locked', 'transition-pending');
+        document.body.classList.add('page-entering');
+        if (window.location.hash) {
+          try { history.replaceState(null, '', window.location.pathname + window.location.search); } catch (_) {}
+        }
+        const root = document.documentElement;
+        const previousScrollBehavior = root.style.scrollBehavior;
+        root.style.scrollBehavior = 'auto';
+        window.scrollTo(0, 0);
+        requestAnimationFrame(() => { root.style.scrollBehavior = previousScrollBehavior; });
+        window.setTimeout(() => document.body.classList.remove('page-entering'), 850);
+      };
+      pageVideo.currentTime = 0.7;
+      pageVideo.addEventListener('playing', revealPage, { once: true });
+      pageVideo.addEventListener('error', revealPage, { once: true });
+      pageVideo.play().catch(revealPage);
     }
-    document.querySelector('#transition-video').addEventListener('ended', finishVideoTransition);
-    document.querySelector('#transition-video').addEventListener('error', finishVideoTransition);
+    transitionVideo.addEventListener('timeupdate', () => {
+      if (Number.isFinite(transitionVideo.duration) && transitionVideo.duration > 1 &&
+          transitionVideo.currentTime >= transitionVideo.duration - 1) {
+        finishVideoTransition();
+      }
+    });
+    transitionVideo.addEventListener('ended', finishVideoTransition);
+    transitionVideo.addEventListener('error', finishVideoTransition);
 
     const sections = document.querySelectorAll('main section');
     if ('IntersectionObserver' in window) {
